@@ -1,0 +1,2 @@
+class LibroNoDisponibleError(Exception):
+    pass

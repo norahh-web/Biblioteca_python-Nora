@@ -64,7 +64,7 @@ class Biblioteca:
 
     def devolver_libro(self, id_socio):
         socio = self.buscar_socio(id_socio)
-        
+
         if socio is None:
             raise ValueError("no existe ese socio")
         if not socio.tiene_libro():
@@ -75,3 +75,18 @@ class Biblioteca:
         socio.isbn_prestado = None
         registrar_log("devolucion", f"libro {isbn} de socio {id_socio}")
 
+    def anadir_libro(self, isbn, titulo, autor, anio, categoria):
+        if self.buscar_libro(isbn) is not None:
+            raise ValueError("ya existe un libro con ese codigo")
+        self.libros.append(Libro(isbn, titulo, autor, anio, categoria, None))
+        registrar_log("libro anadido", f"{isbn} - {titulo}")
+
+    def anadir_socio(self, id_socio, nombre, email):
+        if self.buscar_socio(id_socio) is not None:
+            raise ValueError("ya existe un socio con ese codigo")
+        self.socios.append(Socio(id_socio, nombre, email, None))
+        registrar_log("socio anadido", f"{id_socio} - {nombre}")
+
+    def guardar(self):
+        guardar_libros(self.libros)
+        guardar_socios(self.socios)

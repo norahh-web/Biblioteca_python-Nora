@@ -62,3 +62,16 @@ class Biblioteca:
         socio.isbn_prestado = isbn
         registrar_log("prestamo", f"libro {isbn} a socio {id_socio}")
 
+    def devolver_libro(self, id_socio):
+        socio = self.buscar_socio(id_socio)
+        
+        if socio is None:
+            raise ValueError("no existe ese socio")
+        if not socio.tiene_libro():
+            raise ValueError("el socio no tiene ningun libro")
+        isbn = socio.isbn_prestado
+        libro = self.buscar_libro(isbn)
+        libro.id_socio = None
+        socio.isbn_prestado = None
+        registrar_log("devolucion", f"libro {isbn} de socio {id_socio}")
+

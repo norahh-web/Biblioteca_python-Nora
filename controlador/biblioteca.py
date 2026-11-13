@@ -21,4 +21,23 @@ class Biblioteca:
                 return socio
         return None
 
-        
+    def libros_disponibles(self):
+        disponibles = []
+        for libro in self.libros:
+            if libro.esta_disponible():
+                disponibles.append(libro)
+        return disponibles
+    
+    def buscar_por_titulo(self, texto):
+        encontrados = []
+        for libro in self.libros:
+            if texto.lower() in libro.titulo.lower():
+                encontrados.append(libro)
+        return encontrados
+
+    def socios_con_libro(self):
+        con_libro = []
+        for socio in self.socios:
+            if socio.tiene_libro():
+                con_libro.append(socio)
+        return con_libro

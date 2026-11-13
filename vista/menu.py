@@ -17,6 +17,28 @@ class Menu:
 
     def ejecutar(self):
         opcion = ""
+        while opcion != "8":
+            self.mostrar_opciones()
+            opcion = input("opcion: ")
+            if opcion == "1":
+                self.mostrar_libros()
+            elif opcion == "2":
+                self.mostrar_disponibles()
+            elif opcion == "3":
+                self.buscar_titulo()
+            elif opcion == "4":
+                self.prestar()
+            elif opcion == "5":
+                self.devolver()
+            elif opcion == "6":
+                self.mostrar_socios_con_libro()
+            elif opcion == "7":
+                self.anadir()
+            elif opcion == "8":
+                self.biblioteca.guardar()
+                print("datos guardados, hasta pronto")
+            else:
+                print("opcion no valida")
 
     # Métodos del menú
 

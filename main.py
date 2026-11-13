@@ -1,14 +1,7 @@
-from controlador.almacenamiento import cargar_libros, cargar_socios, registrar_log
+from controlador.biblioteca import Biblioteca
+from vista.menu import Menu
 
-libros = cargar_libros()
-socios = cargar_socios()
-
-print(len(libros), len(socios))
-print(libros[0])
-print(socios[0])
-print(libros[0].id_socio)
-print(libros[1].id_socio)
-print(socios[0].isbn_prestado)
-print(socios[1].isbn_prestado)
-
-registrar_log("prueba", "probando el log")
+biblioteca = Biblioteca()
+print("se han cargado", len(biblioteca.libros), "libros y", len(biblioteca.socios), "socios")
+menu = Menu(biblioteca)
+menu.ejecutar()

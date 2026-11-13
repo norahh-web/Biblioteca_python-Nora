@@ -1,15 +1,16 @@
-S001;Ana López Martínez;ana.lopez@mail.com;L004
+S001;Ana López Martínez;ana.lopez@mail.com;None
 S002;Mikel Etxeberria Aguirre;mikel.etxeberria@mail.com;None
-S003;Leire García Ruiz;leire.garcia@mail.com;L059
+S003;Leire García Ruiz;leire.garcia@mail.com;None
 S004;Jon Urrutia Zabala;jon.urrutia@mail.com;None
-S005;Nur Benali;nur.benali@mail.com;L065
+S005;Nur Benali;nur.benali@mail.com;None
 S006;Carlos Fernández Gil;carlos.fernandez@mail.com;None
 S007;Maite Iturbe Olano;maite.iturbe@mail.com;None
-S008;Hanae Dehmani;hanae.dehmani@mail.com;L087
+S008;Hanae Dehmani;hanae.dehmani@mail.com;None
 S009;Unai Goikoetxea Ruiz;unai.goikoetxea@mail.com;None
 S010;Laura Sánchez Prieto;laura.sanchez@mail.com;None
 S011;Iker Mendizabal Arana;iker.mendizabal@mail.com;None
-S012;Sara Moreno Vega;sara.moreno@mail.com;L001
+S012;Sara Moreno Vega;sara.moreno@mail.com;None
 S013;Aitor Sagarna Lasa;aitor.sagarna@mail.com;None
 S014;Elena Ortiz Campos;elena.ortiz@mail.com;None
-S015;Mouna Zebbouj;mouna.zebbouj@mail.com;None
+S015;Mouna Zebbouj;mouna.zebbouj@mail.com;L002
+S999;Jone;halaaa@gmail.com;L015

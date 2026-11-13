@@ -1,7 +1,7 @@
-L001;Don Quijote de la Mancha;Miguel de Cervantes;1605;Clásicos;S012
-L002;La Celestina;Fernando de Rojas;1499;Clásicos;None
+L001;Don Quijote de la Mancha;Miguel de Cervantes;1605;Clásicos;None
+L002;La Celestina;Fernando de Rojas;1499;Clásicos;S015
 L003;Lazarillo de Tormes;Anónimo;1554;Clásicos;None
-L004;Cien años de soledad;Gabriel García Márquez;1967;Novela;S001
+L004;Cien años de soledad;Gabriel García Márquez;1967;Novela;None
 L005;El amor en los tiempos del cólera;Gabriel García Márquez;1985;Novela;None
 L006;Crónica de una muerte anunciada;Gabriel García Márquez;1981;Novela;None
 L007;La casa de los espíritus;Isabel Allende;1982;Novela;None
@@ -12,7 +12,7 @@ L011;Ficciones;Jorge Luis Borges;1944;Cuentos;None
 L012;El Aleph;Jorge Luis Borges;1949;Cuentos;None
 L013;La sombra del viento;Carlos Ruiz Zafón;2001;Novela;None
 L014;El juego del ángel;Carlos Ruiz Zafón;2008;Novela;None
-L015;La colmena;Camilo José Cela;1951;Novela;None
+L015;La colmena;Camilo José Cela;1951;Novela;S999
 L016;La familia de Pascual Duarte;Camilo José Cela;1942;Novela;None
 L017;Nada;Carmen Laforet;1945;Novela;None
 L018;Los santos inocentes;Miguel Delibes;1981;Novela;None
@@ -56,13 +56,13 @@ L055;1984;George Orwell;1949;Ciencia ficción;None
 L056;Rebelión en la granja;George Orwell;1945;Novela;None
 L057;Un mundo feliz;Aldous Huxley;1932;Ciencia ficción;None
 L058;Fahrenheit 451;Ray Bradbury;1953;Ciencia ficción;None
-L059;Dune;Frank Herbert;1965;Ciencia ficción;S003
+L059;Dune;Frank Herbert;1965;Ciencia ficción;None
 L060;Fundación;Isaac Asimov;1951;Ciencia ficción;None
 L061;Yo, robot;Isaac Asimov;1950;Ciencia ficción;None
 L062;Neuromante;William Gibson;1984;Ciencia ficción;None
 L063;El juego de Ender;Orson Scott Card;1985;Ciencia ficción;None
 L064;Solaris;Stanisław Lem;1961;Ciencia ficción;None
-L065;El hobbit;J. R. R. Tolkien;1937;Fantasía;S005
+L065;El hobbit;J. R. R. Tolkien;1937;Fantasía;None
 L066;La comunidad del anillo;J. R. R. Tolkien;1954;Fantasía;None
 L067;Las dos torres;J. R. R. Tolkien;1954;Fantasía;None
 L068;El retorno del rey;J. R. R. Tolkien;1955;Fantasía;None
@@ -84,7 +84,7 @@ L083;El silencio de los corderos;Thomas Harris;1988;Misterio;None
 L084;El resplandor;Stephen King;1977;Terror;None
 L085;It;Stephen King;1986;Terror;None
 L086;Misery;Stephen King;1987;Terror;None
-L087;El principito;Antoine de Saint-Exupéry;1943;Infantil;S008
+L087;El principito;Antoine de Saint-Exupéry;1943;Infantil;None
 L088;Alicia en el país de las maravillas;Lewis Carroll;1865;Infantil;None
 L089;Peter Pan;J. M. Barrie;1911;Infantil;None
 L090;Matilda;Roald Dahl;1988;Infantil;None

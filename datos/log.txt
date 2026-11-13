@@ -1,1 +1,4 @@
 [13/11/2026 20:36:59][prueba][probando el log]
+[13/11/2026 22:24:42][socio anadido][S999 - Jone]
+[13/11/2026 22:26:08][prestamo][libro L015 a socio S999]
+[13/11/2026 22:26:34][prestamo][libro L002 a socio S015]

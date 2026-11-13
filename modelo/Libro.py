@@ -5,7 +5,7 @@ class Libro:
         self.autor = autor
         self.anio = anio
         self.categoria = categoria
-        self.id_socio = None
+        self.id_socio = id_socio
 
     def __str__(self):
         return f"Libro: {self.titulo} | ISBN: {self.isbn} | autor: {self.autor} | fecha de publicación: {self.anio} | categoria: {self.categoria}"

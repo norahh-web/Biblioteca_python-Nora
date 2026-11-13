@@ -3,7 +3,7 @@ class Socio:
        self.id_socio = id_socio
        self.nombre = nombre
        self.email = email
-       self.isbn_prestado = None
+       self.isbn_prestado = isbn_prestado
 
    def __str__(self):
        return f"Nombre del socio: {self.nombre} - ID: {self.id_socio} - correo electrónico: {self.email}"

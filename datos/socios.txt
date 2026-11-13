@@ -12,5 +12,5 @@ S011;Iker Mendizabal Arana;iker.mendizabal@mail.com;None
 S012;Sara Moreno Vega;sara.moreno@mail.com;None
 S013;Aitor Sagarna Lasa;aitor.sagarna@mail.com;None
 S014;Elena Ortiz Campos;elena.ortiz@mail.com;None
-S015;Mouna Zebbouj;mouna.zebbouj@mail.com;L002
-S999;Jone;halaaa@gmail.com;L015
+S015;Mouna Zebbouj;mouna.zebbouj@mail.com;L015
+S999;Jone;halaaa@gmail.com;None

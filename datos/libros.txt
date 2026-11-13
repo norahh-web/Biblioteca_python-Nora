@@ -1,5 +1,5 @@
 L001;Don Quijote de la Mancha;Miguel de Cervantes;1605;Clásicos;None
-L002;La Celestina;Fernando de Rojas;1499;Clásicos;S015
+L002;La Celestina;Fernando de Rojas;1499;Clásicos;None
 L003;Lazarillo de Tormes;Anónimo;1554;Clásicos;None
 L004;Cien años de soledad;Gabriel García Márquez;1967;Novela;None
 L005;El amor en los tiempos del cólera;Gabriel García Márquez;1985;Novela;None
@@ -12,7 +12,7 @@ L011;Ficciones;Jorge Luis Borges;1944;Cuentos;None
 L012;El Aleph;Jorge Luis Borges;1949;Cuentos;None
 L013;La sombra del viento;Carlos Ruiz Zafón;2001;Novela;None
 L014;El juego del ángel;Carlos Ruiz Zafón;2008;Novela;None
-L015;La colmena;Camilo José Cela;1951;Novela;S999
+L015;La colmena;Camilo José Cela;1951;Novela;S015
 L016;La familia de Pascual Duarte;Camilo José Cela;1942;Novela;None
 L017;Nada;Carmen Laforet;1945;Novela;None
 L018;Los santos inocentes;Miguel Delibes;1981;Novela;None
